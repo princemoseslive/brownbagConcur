@@ -1,4 +1,4 @@
-package com.jcg.maven;
+package brownbaghelloworld.com;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

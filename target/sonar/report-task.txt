@@ -1,0 +1,7 @@
+organization=aravind666-github
+projectKey=aravind666_brownbagConcur
+serverUrl=https://sonarcloud.io
+serverVersion=7.4.0.18669
+dashboardUrl=https://sonarcloud.io/dashboard?id=aravind666_brownbagConcur
+ceTaskId=AWbGDEzQ94ApvXY3cX0c
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWbGDEzQ94ApvXY3cX0c
