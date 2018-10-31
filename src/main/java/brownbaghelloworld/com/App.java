@@ -1,11 +1,6 @@
 package brownbaghelloworld.com;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.logging.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Hello world!
@@ -17,7 +12,7 @@ public class App
             Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	LOGGER.info( Level.INFO+"Hello World!" );
     }
 
     public static long parseTimeValue(String sValue) {
@@ -49,7 +44,7 @@ public class App
             return millis;
 
         } catch (NumberFormatException e) {
-            LOGGER.log(Level.INFO, "Number format exception");
+            LOGGER.log(Level.FINER, "Number format exception");
         }
 
         return 0;
