@@ -12,7 +12,7 @@ public class App
             Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     public static void main( String[] args )
     {
-    	LOGGER.info( Level.INFO+"Hello World!" );
+    	LOGGER.info( "Hello World!" );
     }
 
     public static long parseTimeValue(String sValue) {
@@ -44,7 +44,7 @@ public class App
             return millis;
 
         } catch (NumberFormatException e) {
-            LOGGER.log(Level.FINER, "Number format exception");
+            LOGGER.log(Level.SEVERE, "Number format exception");
         }
 
         return 0;
